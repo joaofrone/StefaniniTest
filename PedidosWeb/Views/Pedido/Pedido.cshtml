@@ -56,7 +56,7 @@
                             <th>ID</th>
                             <th style="text-align:left;">Produto</th>
                             <th style="text-align:left;">Quantidade</th>
-                            <th style="text-align:left;">Valor</th>
+                            <th style="text-align:right;">Valor</th>
                         </tr>
                     </thread>
                     <tbody>
@@ -67,11 +67,14 @@
                                 <td style="text-align:left;">@Html.DisplayFor(modelItem => item.nomeProduto)</td>
                                 <td style="text-align:right;">@Html.DisplayFor(modelItem => item.quantidade)</td>
                                 <td style="text-align:right;">@Html.DisplayFor(modelItem => item.valorUnitario)</td>
-
                             </tr>
                         }
-                        
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" style="text-align:right;">Total R$ @Html.Raw(Model.valorTotal)</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
         </div>

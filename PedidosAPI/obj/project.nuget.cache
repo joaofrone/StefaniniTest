@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pMMT5JvPeAwWm0DmYY+NIFxb7y0Q7pjARrhy0PaGxQ1IR+MwgXsSKaEITTzx0NuGlHmheEtlPf8Z4xZnMTMufg==",
+  "dgSpecHash": "QumxZWOHqUAOJ7GZrFN/GBbyN2iTSyUsnpIwAfoOmx1osO5DF1QgDrDWHy/TrKd0hyl6ROM7uTV2ogg23dTxOA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Stefanini\\PedidosAPI\\API\\PedidosAPI\\PedidosAPI\\PedidosAPI.csproj",
+  "projectFilePath": "D:\\Git\\StefaniniTest\\PedidosAPI\\PedidosAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaof\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\joaof\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

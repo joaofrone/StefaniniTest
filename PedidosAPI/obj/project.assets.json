@@ -11891,11 +11891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Stefanini\\PedidosAPI\\API\\PedidosAPI\\PedidosAPI\\PedidosAPI.csproj",
+      "projectUniqueName": "D:\\Git\\StefaniniTest\\PedidosAPI\\PedidosAPI.csproj",
       "projectName": "PedidosAPI",
-      "projectPath": "D:\\Projetos\\Stefanini\\PedidosAPI\\API\\PedidosAPI\\PedidosAPI\\PedidosAPI.csproj",
+      "projectPath": "D:\\Git\\StefaniniTest\\PedidosAPI\\PedidosAPI.csproj",
       "packagesPath": "C:\\Users\\joaof\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Stefanini\\PedidosAPI\\API\\PedidosAPI\\PedidosAPI\\obj\\",
+      "outputPath": "D:\\Git\\StefaniniTest\\PedidosAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

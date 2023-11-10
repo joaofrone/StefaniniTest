@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QZ8nlJxw7kVePvsm7r8WIO9NE46cW1Chmz0WXVQmmIc01+uniaLsfWwtM16ZfAqkxCfZd5rBi5GQgXwodHcUNA==",
+  "dgSpecHash": "TxrWnkyppsPJ+ONpENo8aPwbTMJKOs1q1vBNm6ktoJqdylHcf91uyxM9/hnESGCUU+w6GG2gynEHPjCFai1/mw==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Stefanini\\PedidosAPI\\API\\PedidosAPI\\PedidosWeb\\PedidosWeb.csproj",
+  "projectFilePath": "D:\\Git\\StefaniniTest\\PedidosWeb\\PedidosWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaof\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\joaof\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
