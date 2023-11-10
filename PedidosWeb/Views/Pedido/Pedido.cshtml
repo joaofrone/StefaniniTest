@@ -1,0 +1,88 @@
+﻿@model PedidosWeb.Models.objPedido
+
+@{
+    ViewData["Title"] = "Pedido Novo/Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-left">
+    <form id="formCadastro" asp-action="Edit">
+
+        <input type="hidden" asp-for="id" name="id" id="id"/>
+
+        <h3>Pedido</h3><br />
+        @if (!Model.id.Equals(0))
+        {
+            <div class="row m-2">
+                <div class="col-md-2">
+                <div class="form-group">
+                    <label for="Nome" >ID:</label>
+                    @Html.Raw(Model.id)
+                </div>
+            </div>
+        </div>
+        }
+        <div class="row m-2">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="Cpf">Nome:</label>
+                    <input required="required" type="text" class="form-control" id="nomeCliente" name="nomeCliente" placeholder="João" maxlength="60" asp-for="nomeCliente">
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="CEP">E-mail:</label>
+                    <input required="required" type="text" class="form-control" id="emailCliente" name="emailCliente" placeholder="cliente@dominio.com" maxlength="60" asp-for="emailCliente">
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="CEP">Pago:</label>
+                    <input type="checkbox"  id="pago" name="pago" asp-for="pago">
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row m-2">
+            <div class="col-md-12">
+                <h4>Lista de Produtos</h4>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>ID</th>
+                            <th style="text-align:left;">Produto</th>
+                            <th style="text-align:left;">Quantidade</th>
+                            <th style="text-align:left;">Valor</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        @foreach (var item in Model.itensPedido)
+                        {
+                            <tr>
+                                <td style="text-align:center;">@Html.DisplayFor(modelItem => item.idProduto)</td>
+                                <td style="text-align:left;">@Html.DisplayFor(modelItem => item.nomeProduto)</td>
+                                <td style="text-align:right;">@Html.DisplayFor(modelItem => item.quantidade)</td>
+                                <td style="text-align:right;">@Html.DisplayFor(modelItem => item.valorUnitario)</td>
+
+                            </tr>
+                        }
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="row m-2">
+            <div class="col-md-12">
+                @Html.ActionLink("Cancelar", "Index", "Home", new { }, new { @class = "btn btn-sm btn-danger" })
+                <input type="submit" value="Salvar" class="btn btn-sm btn-success" />
+            </div>
+        </div>
+    </form>
+</div>
+
+
